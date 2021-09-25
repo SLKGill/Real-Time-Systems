@@ -1,0 +1,23 @@
+Note important linux commands here:
+
+source /usr/local/natinst/tools/versioning_utils.sh
+
+setup_versioning_env
+
+versioning_call make
+
+/sbin/insmod module_name.ko
+
+/sbin/lsmod
+
+cat /var/log/messages
+
+/sbin/lsmod
+
+/sbin/rmmod module_name
+
+
+
+
+cat module_name //see contents
+vi module_name.c //edit file, then click 'i' to edit it. then 'esc' ':wq!' to save and return to console
