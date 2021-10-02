@@ -21,3 +21,5 @@ cat /var/log/messages
 
 cat module_name //see contents
 vi module_name.c //edit file, then click 'i' to edit it. then 'esc' ':wq!' to save and return to console
+
+*change Makefile with name of .c file executing
